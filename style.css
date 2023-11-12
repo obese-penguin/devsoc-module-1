@@ -6,6 +6,7 @@
 	justify-content: center;
 	background: white;
 	display: flex;
+	background: #B9D9EB;
 }
 
 .calculator{
@@ -14,8 +15,6 @@
 	width: 103.6mm;
 	border-radius: 18px;
 }
-
-
 
 .display{
 	background: #d9e8c2;
@@ -58,7 +57,6 @@ form input {
 	color: white;
 	font-family: "Hack", Hack, Regular;
 }
-
 
 .body-mode{
 	position: relative;
