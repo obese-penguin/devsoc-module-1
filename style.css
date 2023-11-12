@@ -5,6 +5,7 @@
 	align-items: center;
 	justify-content: center;
 	background: white;
+	display: flex;
 }
 
 .calculator{
@@ -171,6 +172,7 @@ button{
 	margin-left: 5mm;
 	margin-bottom: 5mm;
 	margin-top: 80mm;
+	align-items: center;
 }
 
 form .button-special{
