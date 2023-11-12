@@ -16,7 +16,25 @@
 	border-radius: 18px;
 }
 
+.casio{
+	position: relative;
+	top: 5mm;
+	left: 10mm;
+	font-family: "Hack", Hack, Bold;
+	color: gray;
+	font-size: 20px;
+}
+
+.model{
+	position: relative;
+	top: 10mm;
+	font-family: "Georgia", Italic;
+	font-size: 15px;
+}
+
 .display{
+	position: relative;
+	bottom: 5mm;
 	background: #d9e8c2;
 	width: 89.6mm;
 	height: 26.5mm;
@@ -60,7 +78,7 @@ form input {
 
 .body-mode{
 	position: relative;
-	top: 4mm;
+	top: 0mm;
 	left: 2mm;
 }
 
@@ -104,7 +122,7 @@ form input {
 
 .body-math{
 	position: relative;
-	top: 5mm;
+	top: 0mm;
 	left: 2mm;
 	width: 100mm;
 	height: 20mm;
@@ -163,7 +181,7 @@ button{
 
 .body-main{
 	position: relative;
-	bottom: 40mm;
+	bottom: 45mm;
 	background: #3d4751;
 	height: 61.9mm;
 	width: 93.6mm;

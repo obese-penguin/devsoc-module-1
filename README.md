@@ -1,7 +1,7 @@
 # devsoc-module-1
 
 Issues with this calculator:
-* contrary to the name given, its actually not a good calculator.
+* Contrary to the name given, its actually not a good calculator.
 * Doesn't work for mobile :(
 * AC key doesn't work for some reason.
 * Can't start new calculations without refresh.
