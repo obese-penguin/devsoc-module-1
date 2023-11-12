@@ -7,4 +7,5 @@ Issues with this calculator:
 * Can't start new calculations without refresh.
 * Black keys don't work (don't know how to implement most of them). 
 * White keys don't work.
+* EXP doesn't work.
 * ~~Doesn't say CASIO at the top :(~~
