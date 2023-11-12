@@ -11,9 +11,11 @@ function display(val) {
 	}
 
 	if (val === 'ans') {
-		input_line.innerText += ans.toString();
+		input_line.innerText += ans;
 		return;
 	}
+
+
 
 	input_line.innerHTML += val;
 }
