@@ -1,7 +1,21 @@
 var calc_done = false;
 var ans = null;
+var ON = false;
+
+function swtch() {
+	if (ON) {
+		ON = false;
+		clr();
+	}
+
+	else
+		ON = true;
+}
 
 function display(val) {
+	if (ON === false) 
+		return;
+
 	const input_line = document.getElementsByClassName('input-line')[0]; 
 	const output_line = document.getElementsByClassName('output-line')[0];
 
@@ -10,12 +24,10 @@ function display(val) {
 		calc_done = false;
 	}
 
-	if (val === 'ans') {
+	if (val === 'ans' && ans !== null) {
 		input_line.innerText += ans;
 		return;
 	}
-
-
 
 	input_line.innerHTML += val;
 }
@@ -28,6 +40,9 @@ function clr() {
 }
 
 function answer() {
+	if (ON === false) 
+		return;
+
 	const input_line = document.getElementsByClassName('input-line')[0]; 
 	const output_line = document.getElementsByClassName('output-line')[0];
 	if (calc_done) {
