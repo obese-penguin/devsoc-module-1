@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css" title="" type="">
+<title>hello</title>
+					
+</head>
+
+<body>
+<h1 style="text-align:center;font-family:'Helvetica Neue'">
+	good calculator :)
+</h1>
+
+<div class="container">
+	<div class="calculator">
+			<div class="display">
+				<div class="input-line">
+				</div>	
+				<div class="output-line">
+					
+				</div>
+			</div>
+			<div class="body-mode">
+				<input type="button" value="SHIFT" class="shift-alpha-mode-on mode-column-1">
+				<input type="button" value="ALPHA" class="shift-alpha-mode-on mode-column-2">
+				<input type="button" value="COPY" class="copy mode-column-3">
+				<input type="button" value="MODE" class="shift-alpha-mode-on mode-column-4">
+				<input type="button" value="ON" class="shift-alpha-mode-on mode-column-5">
+
+			</div>
+
+			<div class="body-math">
+				<div>
+					<button type="button" class="math-row-1 math-col-1">CALC</button>
+					<button type="button" class="math-row-1 math-col-2">&int; dx</button>
+					<button type="button" class="math-row-1" style="margin-left: 34mm;">x<sup>-1</sup></button>
+					<button type="button" class="math-row-1 math-col-6" style="margin-left: 1.7mm;">CONST</button>
+
+				</div>
+				<div>
+					<button type="button" class="math-row-2 math-col-1">a b/c</button>
+					<button type="button" class="math-row-2 math-col-2">&radic;</button>
+					<button type="button" class="math-row-2 math-col-3">x<sup>2</sup></button>
+					<button type="button" class="math-row-2 math-col-4">&and;</button>
+					<button type="button" class="math-row-2 math-col-5">log</button>
+					<button type="button" class="math-row-2 math-col-6">ln</button>
+				</div>
+				<div>
+					<button type="button" class="math-row-3 math-col-1">(–)</button>
+					<button type="button" class="math-row-3 math-col-2">&compfn; &sbquo; &bdquo;</button>
+					<button type="button" class="math-row-3 math-col-3">hyp</button>
+					<button type="button" class="math-row-3 math-col-4">sin</button>
+					<button type="button" class="math-row-3 math-col-5">cos</button>
+					<button type="button" class="math-row-3 math-col-6">tan</button>
+				</div>
+				<div>
+					<button type="button" class="math-row-4 math-col-1">RCL</button>
+					<button type="button" class="math-row-4 math-col-2" >ENG</button>
+					<button type="button" class="math-row-4 math-col-3">(</button>
+					<button type="button" class="math-row-4 math-col-4">)</button>
+					<button type="button" class="math-row-4 math-col-5">&sbquo;</button>
+					<button type="button" class="math-row-4 math-col-6">M+</button>
+				</div>
+			</div>
+
+			<div class="body-main">
+				<form>
+					<div>
+						<input type="button" value="7" class="column-1 row-1 key" onclick="display('7')">
+						<input type="button" value="8" class="column-2 row-1 key" onclick="display('8')">
+						<input type="button" value="9" class="column-3 row-1 key" onclick="display('9')">
+						<input type="button" value="DEL" class="button-special column-4 row-1 key">
+						<input type="button"  value="AC" class="button-special column-5 row-1 key" onclick="clear()">
+					</div>
+					<div>
+						<input type="button" value="4" class="column-1 row-2 key" onclick="display('4')">
+						<input type="button" value="5" class="column-2 row-2 key" onclick="display('5')">
+						<input type="button" value="6" class="column-3 row-2 key" onclick="display('6')">
+						<input type="button" value="&times;" class="column-4 row-2 key" onclick="display('*')">
+						<input type="button" value="&divide;" class="column-5 row-2 key" onclick="display('/')">
+					</div>
+					<div>
+						<input type="button" value="1" class="column-1 row-3 key" onclick="display('1')">
+						<input type="button" value="2" class="column-2 row-3 key" onclick="display('2')">
+						<input type="button" value="3" class="column-3 row-3 key" onclick="display('3')">
+						<input type="button" value="&plus;" class="column-4 row-3 key" onclick="display('+')">
+						<input type="button" value="&minus;" class="column-5 row-3 key" onclick="display('-')">
+					</div>
+					<div>
+						<input type="button" value="0" class="column-1 row-4 key" onclick="display('0')">
+						<input type="button" value="&#x2022;" class="column-2 row-4 key" onclick="display('.')">
+						<input type="button" value="EXP" class="column-3 row-4 exp-ans">
+						<input type="button" value="Ans" class="column-4 row-4 exp-ans">
+						<input type="button" value="&equals;" class="column-5 row-4" onclick="answer()">
+					</div>
+				</form>	
+			</div>
+	</div>	
+</div>
+
+</body>
+
+<script src="script.js">
+</script>
+
+
+</html>

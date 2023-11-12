@@ -1,0 +1,220 @@
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+}
+
+.calculator{
+	background: #3d4751;
+	height: 201mm;
+	width: 103.6mm;
+	border-radius: 18px;
+}
+
+
+
+.display{
+	background: #d9e8c2;
+	width: 89.6mm;
+	height: 26.5mm;
+	border-radius: 3px;
+	margin-top: 32mm;
+	margin-left: 7mm;
+}
+
+.input-line{
+	position: relative;
+	top: 2mm;
+	background: #d9e8c2;
+	width: 76.7mm;
+	height: 8mm;
+	margin: auto;
+	font-family: "Hack", Hack, Regular;
+	overflow: scroll;
+}
+
+.output-line{
+	position: relative;
+	top: 4mm;
+	left: 6.5mm;
+	width: 70.8mm;
+	height: 12mm;
+	background: #d9e8c2;
+	font-family: "Hack", Hack, Regular;
+	font-size: 30px;
+	overflow: scroll;
+}
+
+form input {
+	background: #768491;
+	border-radius: 6px;
+	width:16.5942mm;
+	height:12.475mm;
+	font-size: 18px;
+	color: white;
+	font-family: "Hack", Hack, Regular;
+}
+
+
+.body-mode{
+	position: relative;
+	top: 4mm;
+	left: 2mm;
+}
+
+.copy{
+	font-size: 15px;
+	font-family: "Hack", Hack, Regular;
+	width: 25mm;
+	height: 10mm;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+}
+
+.shift-alpha-mode-on{
+	font-size: 12px;
+	font-family: "Hack", Hack, Regular;
+	width: 15mm;
+	border-radius: 25px;
+}
+
+.mode-column-1{
+	margin-right: 2.5mm;
+}
+
+.mode-column-2{
+	margin-right: 2.5mm;
+}
+
+.mode-column-3{
+	margin-right: 2.5mm;
+}
+
+.mode-column-4{
+	margin-right: 2.5mm;
+}
+
+.mode-column-5{
+	margin-right: 0mm;
+}
+
+.body-math{
+	position: relative;
+	top: 5mm;
+	left: 2mm;
+	width: 100mm;
+	height: 20mm;
+}
+
+button{
+	color: white;
+	background: #2e3946;
+	border-radius: 5px;
+	font-size: 12px;
+	font-family: "Hack", Hack, Regular;
+	width: 13.8mm;
+	height: 7mm;
+}
+
+.math-col-1{
+	margin-left: 0mm;
+	margin-right: 2.2mm; 
+}
+
+.math-col-2{
+	margin-right: 2.2mm; 
+}
+
+.math-col-3{
+	margin-right: 2.2mm; 
+}
+
+.math-col-4{
+	margin-right: 2.2mm; 
+}
+
+.math-col-5{
+	margin-right: 2.2mm; 
+}
+
+.math-col-6{
+	margin-right: 0mm; 
+}
+
+.math-row-1{
+	margin-top: 4mm;
+}
+
+.math-row-2{
+	margin-top: 3.5mm;
+}
+
+.math-row-3{
+	margin-top: 3.5mm;
+}
+
+.math-row-4{
+	margin-top: 3.5mm;
+}
+
+.body-main{
+	position: relative;
+	bottom: 40mm;
+	background: #3d4751;
+	height: 61.9mm;
+	width: 93.6mm;
+	margin-left: 5mm;
+	margin-bottom: 5mm;
+	margin-top: 80mm;
+}
+
+form .button-special{
+	background: #a9626a;
+	font-size: 18px;
+}
+
+form .exp-ans {
+	font-size: 18px;
+}
+
+.column-1 {
+	margin-left: 0mm;
+	margin-right: 1.6mm;
+}
+
+.column-2 {
+	margin-right: 1.6mm;
+}
+
+.column-3 {
+	margin-right: 1.6mm;
+}
+
+.column-4 {
+	margin-right: 1.6mm;
+}
+
+.column-5 {
+	margin-right: 0mm;
+}
+
+.row-1{
+	margin-top:0mm;
+}
+
+.row-2{
+	margin-top:3mm;
+}
+
+.row-3{
+	margin-top:3mm;
+}
+
+.row-4{
+	margin-top:3mm;
+}
