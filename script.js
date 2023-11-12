@@ -1,5 +1,6 @@
 var calc_done = false;
 var ans = null;
+var show_ans = false;
 var ON = false;
 
 function swtch() {
@@ -12,7 +13,7 @@ function swtch() {
 		ON = true;
 }
 
-function display(val) {
+function display(val, show_ans=false) {
 	if (ON === false) 
 		return;
 
@@ -24,8 +25,9 @@ function display(val) {
 		calc_done = false;
 	}
 
-	if (val === 'ans' && ans !== null) {
+	if (show_ans && ans !== null) {
 		input_line.innerText += ans;
+		show_ans = false;
 		return;
 	}
 
