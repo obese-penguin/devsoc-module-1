@@ -1,14 +1,20 @@
 var calc_done = false;
+var ans = null;
 
 function display(val) {
-
 	const input_line = document.getElementsByClassName('input-line')[0]; 
 	const output_line = document.getElementsByClassName('output-line')[0];
-	
+
 	if (calc_done) {
 		input_line.innerText = "";
 		calc_done = false;
 	}
+
+	if (val === 'ans') {
+		input_line.innerText += ans.toString();
+		return;
+	}
+
 	input_line.innerHTML += val;
 }
 
@@ -29,8 +35,9 @@ function answer() {
 		return;
 	}
 
-	var output = input_line.innerText
-	output_line.innerText = eval(output);	
+	var output = input_line.innerText;
+	ans = eval(output);
+	output_line.innerText = ans;	
 	calc_done = true;
 }
 
